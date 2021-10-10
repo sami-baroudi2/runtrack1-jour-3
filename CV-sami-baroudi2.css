@@ -1,0 +1,128 @@
+@media screen and (max-width="800px")
+{
+    
+    header {
+        background-color: crimson;
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .white {
+        color: white;
+        float: right;
+        text-align:auto;
+        line-height: 200%;
+    }
+    ul{
+        color:midnightblue;
+    }
+    img { 
+        float:right;
+        width: 11%;
+        height: 11%;
+        max-width: 100%;
+        height:auto;
+        padding-left:2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    aside{
+        background-color: midnightblue;
+        padding: 1%
+        text-align: justify;
+    }
+    ol{
+        color: white;
+        list-style-type: upper-roman;
+    }
+    .titrea{
+        color:crimson;
+        line-height: 500%;
+        font-weight: bold;
+    }
+    p{
+        color:midnightblue
+    }
+    h2{
+        font-weight: bold;
+        color: midnightblue;
+    }
+    .corps{
+        display:flex;
+        
+    }
+    section{
+        line-height: 200%;
+        padding: 1%;
+    }
+    audio
+    {
+        float: left;
+    }
+    .name1 {
+        color: white;
+        position: absolute;
+        left:16% ; top: 36% ; 
+        text-align: justify;
+    
+    }
+    .name2 {
+        color: white;
+        position: absolute;
+        left:16% ; top: 42% ; 
+        text-align: justify;
+    }
+    .ligne{
+        background-color: crimson;
+        width: 95%;
+        height: 0.5%;
+    }
+    #lignetop{
+        margin-top: 2%;
+    }
+    li{
+        line-height: 200%;
+    }
+    #avertissement {
+        display: none;
+    }
+     @media only screen and (orientation:portrait) {
+    #wrapper {
+        display: none;
+    }
+    #avertissement {
+        display: block;
+    }
+    }
+     @media only screen and (orientation:landscape) {
+    #avertissement {
+        display: none;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+}#avertissement {
+	display: none;
+}
+ @media only screen and (orientation:landscape) {
+#wrapper {
+	display: none;
+}
+#avertissement {
+	display: block;
+}
+}
+ @media only screen and (orientation:portrait) {
+#avertissement {
+	display: none;
+}
+}
